@@ -132,3 +132,50 @@ src/
 
 ## 📸 Project Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/1f1452f3-121d-4238-9721-c89b17ec1330" />
+
+---
+---
+# 🍽️ Seafood Meals App
+
+A simple React application that fetches seafood recipes from **TheMealDB API**, displays them in a responsive grid layout, and allows users to search meals by name.  
+State management is handled globally using **Zustand**, and styling is done with **Tailwind CSS**.
+
+---
+
+## ✨ Features
+
+- Fetch seafood meals from TheMealDB API
+- Display meals in a 3-column grid layout
+- Search meals by name (case-insensitive)
+- Global state management using Zustand
+- Responsive and clean UI with Tailwind CSS
+- Written in TypeScript
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** – state management
+- **Tailwind CSS** – styling
+- **Vite** – development & build tool
+- **TheMealDB API** – external data source
+
+---
+
+## 📂 Project Structure
+```
+src/
+├── components/
+│   └── Meals.tsx        # Meals UI and data fetching
+├── store/
+│   └── index.ts        # Zustand store
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+---
+
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/85760a20-4ffe-42ad-81c7-3af963d48acf" />
