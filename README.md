@@ -80,3 +80,55 @@ src/
 ---
 ## 📸 Project Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/49ceef0f-7e84-483e-9633-e20e81fcc3e6" />
+
+---
+---
+# 🔐 Password Generator
+
+A simple and customizable password generator built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.
+
+This application allows users to generate secure passwords by selecting the desired password length and character options such as numbers, symbols, uppercase, and lowercase letters.
+
+---
+
+## ✨ Features
+
+- Generate random secure passwords
+- Custom password length (4–64 characters)
+- Character options:
+  - Numbers (0–9)
+  - Symbols (!@#$%^()_+{})
+  - Uppercase letters (A–Z)
+  - Lowercase letters (a–z)
+- Global state management using Zustand
+- Clean and responsive UI with Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** – lightweight state management
+- **Tailwind CSS** – utility-first CSS framework
+- **Vite** – fast development build tool
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   └── PasswordGenerator.tsx
+├── store/
+│   └── index.ts
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+## 📸 Project Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/1f1452f3-121d-4238-9721-c89b17ec1330" />
