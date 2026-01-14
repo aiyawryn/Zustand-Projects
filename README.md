@@ -179,3 +179,56 @@ src/
 
 ## 📸 Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/85760a20-4ffe-42ad-81c7-3af963d48acf" />
+
+---
+---
+
+# 🧩 Dynamic Form Builder (React + Zustand)
+
+This project is a **Dynamic Form Builder** that allows users to create and manage forms dynamically.  
+It supports adding, removing, and updating form fields using **Zustand** for state management, and is built with **React + TypeScript**.
+
+---
+
+## ✨ Features
+
+- Dynamically add form fields
+- Supported field types:
+  - Text
+  - Number
+  - Password
+  - Textarea
+  - Date
+  - File
+- Remove individual form fields
+- Reset the entire form
+- Global state management with Zustand
+- Styled using Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** (State Management)
+- **Tailwind CSS**
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│ ├── FormBuilder.tsx
+│ └── FormField.tsx
+├── store/
+│ └── index.ts
+└── App.tsx
+```
+---
+
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/4014320e-870e-4726-8c71-eba9e2a814a7" />
+
