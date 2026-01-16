@@ -232,3 +232,52 @@ src/
 ## 📸 Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/4014320e-870e-4726-8c71-eba9e2a814a7" />
 
+---
+---
+
+# 📝 Simple Todo List (React + Zustand)
+
+A simple Todo List application built with **React**, **TypeScript**, **Zustand** for global state management, and **Tailwind CSS** for styling.
+
+This project is ideal for learning how to manage shared state in React using Zustand while keeping the UI clean and responsive.
+
+---
+
+## 🚀 Features
+
+- ➕ Add new todos
+- ✅ Toggle todo completion
+- 🗑️ Delete todos
+- 🌍 Global state management with Zustand
+- 🎨 Styled with Tailwind CSS
+- ⚡ Fast, simple, and lightweight
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** – state management
+- **Tailwind CSS** – utility-first styling
+- **Vite** – development tooling
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── store.ts
+├── components/
+│ └── TodoList.tsx # Todo List component
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/bf2e3345-6dab-4efb-8f93-2d03e23a1973" />
+
+
