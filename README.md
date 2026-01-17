@@ -29,8 +29,7 @@ This project is designed for learning state management and controlled components
 src/
 ├── components/
 │ └── RecipeApp.tsx
-├── store/
-│ └── useStore.ts
+├── store.ts
 └── main.tsx
 ```
 ---
@@ -72,8 +71,7 @@ This project helps track daily expenses and calculate the total expense in real 
 src/
 ├── components/
 │ └── ExpenseTracker.tsx
-├── store/
-│ └── useStore.ts
+├── store.ts
 └── main.tsx
 ```
 
@@ -121,8 +119,7 @@ This application allows users to generate secure passwords by selecting the desi
 src/
 ├── components/
 │   └── PasswordGenerator.tsx
-├── store/
-│   └── index.ts
+├── store.ts
 ├── App.tsx
 ├── main.tsx
 └── index.css
@@ -169,8 +166,7 @@ State management is handled globally using **Zustand**, and styling is done with
 src/
 ├── components/
 │   └── Meals.tsx        # Meals UI and data fetching
-├── store/
-│   └── index.ts        # Zustand store
+├── store.ts
 ├── App.tsx
 ├── main.tsx
 └── index.css
@@ -223,8 +219,7 @@ src/
 ├── components/
 │ ├── FormBuilder.tsx
 │ └── FormField.tsx
-├── store/
-│ └── index.ts
+├── store.ts
 └── App.tsx
 ```
 ---
