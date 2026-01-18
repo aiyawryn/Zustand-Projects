@@ -275,4 +275,60 @@ src/
 ## 📸 Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/bf2e3345-6dab-4efb-8f93-2d03e23a1973" />
 
+---
+---
+
+# 📝 Color Notes App
+
+A lightweight and modern note-taking web app built using React, TypeScript, Zustand, React-Quill, and TailwindCSS.
+
+This app allows users to create rich text notes, assign colors to each note, search instantly, edit existing notes, and delete them — all inside a clean and responsive interface.
+
+---
+
+## 🚀 Features
+
+- ✍️ Rich text note editor (React-Quill)
+- 🎨 Color-coded notes
+- 🔍 Live search filtering
+- 🗂 Sidebar preview panel
+- ♻️ Edit/update existing notes
+- 🗑 Delete notes
+- ⚡ Zustand for global state management
+- 💅 TailwindCSS responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- TypeScript
+- Zustand
+- React-Quill
+- TailwindCSS
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│ └── sidebar.tsx
+├── store.ts
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/606acc33-b687-4a55-9bf9-b17315c7a0ce" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/2a6fae24-c332-4159-bfe0-8cfff981ff34" />
+
+
+
+
 
