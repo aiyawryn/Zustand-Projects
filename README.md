@@ -328,6 +328,107 @@ src/
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/606acc33-b687-4a55-9bf9-b17315c7a0ce" />
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/2a6fae24-c332-4159-bfe0-8cfff981ff34" />
 
+---
+---
+
+# 📝 Advance Todo App
+
+A simple and clean **Todo application** built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.  
+This app supports **Lists**, **Workspaces**, **date-based filtering**, and **inline editing**, all managed through a centralized Zustand store.
+
+---
+
+## 🚀 Features
+
+- ✅ Create, update, delete todos
+- 📋 Organize todos by **Lists**
+- 🗂️ Group work using **Workspaces**
+- 📅 Assign due dates to todos
+- 🔍 Filter todos by:
+  - All
+  - Day
+  - Week
+  - Month
+- ✏️ Inline editing of todo text
+- ✔️ Mark todos as completed
+- 🧠 Global state management using **Zustand**
+- 🎨 Clean UI styled with **Tailwind CSS**
+- 😄 Emoji support for Lists and Workspaces
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** (state management)
+- **Tailwind CSS** (styling)
+- **React Icons**
+
+---
+
+## 📁 Project Structure
+```
+src/
+├── components/
+│ ├── Sidebar.tsx # Lists & Workspaces
+│ ├── MainArea.tsx # Todo input & filters
+│ ├── TodoList.tsx # Todo rendering & actions
+│ └── Modal.tsx # Create List / Workspace modal
+├── store.ts # Zustand global store
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## 🧠 State Management (Zustand)
+
+The entire application state is handled using a single Zustand store:
+
+### Stored State Includes:
+- Todos
+- Lists
+- Workspaces
+- Modal states
+- Editing state
+- Filter mode
+- Selected list/workspace
+
+### Key Actions:
+- `addTodo`, `updateTodo`, `deleteTodo`
+- `toggleTodo`
+- `addList`, `addWorkspace`
+- `handleEdit`, `handleUpdate`
+- `setFilterMode`
+- `handleSaveModal`
+
+---
+
+## 🖥️ UI Overview
+
+### Sidebar
+- Displays Lists and Workspaces
+- Allows creating new Lists or Workspaces via modal
+
+### Main Area
+- Add todos with:
+  - Text
+  - Due date
+  - List
+  - Workspace
+- Filter todos by time range
+
+### Todo List
+- Inline editing
+- Completion toggle
+- Dropdown actions (Edit / Delete)
+- Date, list, and workspace metadata
+
+---
+
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/4f23a225-7a08-4581-8ab2-ad8952f7e748" />
 
 
 
