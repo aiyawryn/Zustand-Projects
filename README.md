@@ -430,6 +430,65 @@ The entire application state is handled using a single Zustand store:
 ## 📸 Preview
 <img height="400" alt="image" src="https://github.com/user-attachments/assets/4f23a225-7a08-4581-8ab2-ad8952f7e748" />
 
+---
+---
+
+# 🧠 React Quiz App (Zustand + Tailwind)
+
+A simple and interactive quiz application built with **React**, **Zustand** for state management, and **Tailwind CSS** for styling.  
+The app allows users to answer multiple-choice questions, navigate between them, track progress in a sidebar, and view their final score.
+
+---
+
+## 🚀 Features
+
+- 📋 Multiple-choice quiz with 10 questions
+- 🔄 Navigate between previous and next questions
+- 📊 Sidebar showing quiz progress and answered questions
+- ✅ Answer selection persistence using Zustand
+- 🧮 Automatic score calculation on submission
+- 🔁 Restart quiz functionality
+- 🎨 Clean UI with Tailwind CSS
+- ⚡ Fast and lightweight state management
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components)
+- **TypeScript**
+- **Zustand** – Global state management
+- **Tailwind CSS** – Styling
+- **React Icons** – UI icons
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│ ├── QuizLayout.tsx
+│ ├── Sidebar.tsx
+│ └── Question.tsx
+│
+├── store/
+│ └── useQuizStore.ts
+│
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## 📸 Preview
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/edba7830-be42-4de3-8abb-5fe8b3230941" />
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/94a3280e-2ae1-4788-b0b6-fedca43e2c05" />
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/0368dda1-50df-4004-9aec-eb3a9f1a296e" />
+
+
+
 
 
 
