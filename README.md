@@ -1,4 +1,4 @@
-# 🍲 Recipe Book App
+# 1️⃣🍲 Recipe Book App
 
 A simple Recipe Book application built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.  
 This project is designed for learning state management and controlled components in React.
@@ -40,7 +40,7 @@ src/
 ---
 ---
 
-# 💰 Expense Tracker App
+# 2️⃣💰 Expense Tracker App
 
 A simple Expense Tracker application built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.  
 This project helps track daily expenses and calculate the total expense in real time.
@@ -81,7 +81,7 @@ src/
 
 ---
 ---
-# 🔐 Password Generator
+# 3️⃣🔐 Password Generator
 
 A simple and customizable password generator built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.
 
@@ -132,7 +132,7 @@ src/
 
 ---
 ---
-# 🍽️ Seafood Meals App
+# 4️⃣🍽️ Seafood Meals App
 
 A simple React application that fetches seafood recipes from **TheMealDB API**, displays them in a responsive grid layout, and allows users to search meals by name.  
 State management is handled globally using **Zustand**, and styling is done with **Tailwind CSS**.
@@ -179,7 +179,7 @@ src/
 ---
 ---
 
-# 🧩 Dynamic Form Builder (React + Zustand)
+# 5️⃣🧩 Dynamic Form Builder (React + Zustand)
 
 This project is a **Dynamic Form Builder** that allows users to create and manage forms dynamically.  
 It supports adding, removing, and updating form fields using **Zustand** for state management, and is built with **React + TypeScript**.
@@ -230,7 +230,7 @@ src/
 ---
 ---
 
-# 📝 Simple Todo List (React + Zustand)
+# 6️⃣📝 Simple Todo List (React + Zustand)
 
 A simple Todo List application built with **React**, **TypeScript**, **Zustand** for global state management, and **Tailwind CSS** for styling.
 
@@ -278,7 +278,7 @@ src/
 ---
 ---
 
-# 📝 Color Notes App
+# 7️⃣📝 Color Notes App
 
 A lightweight and modern note-taking web app built using React, TypeScript, Zustand, React-Quill, and TailwindCSS.
 
@@ -331,7 +331,7 @@ src/
 ---
 ---
 
-# 📝 Advance Todo App
+# 8️⃣📝 Advance Todo App
 
 A simple and clean **Todo application** built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.  
 This app supports **Lists**, **Workspaces**, **date-based filtering**, and **inline editing**, all managed through a centralized Zustand store.
@@ -433,7 +433,7 @@ The entire application state is handled using a single Zustand store:
 ---
 ---
 
-# 🧠 React Quiz App (Zustand + Tailwind)
+# 9️⃣🧠 React Quiz App (Zustand + Tailwind)
 
 A simple and interactive quiz application built with **React**, **Zustand** for state management, and **Tailwind CSS** for styling.  
 The app allows users to answer multiple-choice questions, navigate between them, track progress in a sidebar, and view their final score.
@@ -487,6 +487,94 @@ src/
 <img  height="400" alt="image" src="https://github.com/user-attachments/assets/94a3280e-2ae1-4788-b0b6-fedca43e2c05" />
 <img  height="400" alt="image" src="https://github.com/user-attachments/assets/0368dda1-50df-4004-9aec-eb3a9f1a296e" />
 
+---
+---
+
+# 🔟🛍️ Product Filter & Carousel App (React + Zustand)
+
+A modern product listing application built with **React**, **TypeScript**, **Zustand**, and **Tailwind CSS**.  
+It features a filterable product catalog with image carousels, hover interactions, and a sliding sidebar for filters.
+
+---
+
+## ✨ Features
+
+- 🖼️ **Product Image Carousel**
+  - Hover over a product to navigate through available images
+  - Supports multiple color variants per product
+
+- 🎛️ **Advanced Filtering**
+  - Filter by **Country**
+  - Filter by **Available Colors**
+  - Filter by **Price Range**
+
+- 📂 **Sidebar Filters**
+  - Slide-in / slide-out sidebar
+  - Dropdown sections for clean UI
+  - Clear all filters with one click
+
+- ⚡ **State Management with Zustand**
+  - Separate stores for:
+    - Product image & hover state
+    - Filter selections
+
+- 🎨 **Responsive UI**
+  - Built using **Tailwind CSS**
+  - Clean, minimal, and flexible layout
+
+---
+
+## 🧱 Tech Stack
+
+- **React**
+- **TypeScript**
+- **Zustand** – State management
+- **Tailwind CSS** – Styling
+- **React Icons**
+- **Vite / CRA** (depending on your setup)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Navigation.tsx
+│   ├── Sidebar.tsx
+│   └── ProductCard.tsx
+│
+├── db/
+│   └── data.ts
+│
+├── store/
+│   └── store.ts
+│
+├── assets/
+│   └── image*.png
+│
+├── App.tsx
+└── main.tsx
+
+```
+---
+
+## 📸 Preview
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/43e79293-c69e-48c1-ac79-ce1e86cc0f17" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/6b34de40-aa20-4c24-adb8-61312c9cc085" />
+
+---
+---
+
+## 🙏 Credits & Acknowledgement ✨ ✨ ✨
+
+All projects in this repository are inspired by and built by following tutorials from the following YouTube channel:
+
+- 📺 **Tutorial Video:** https://www.youtube.com/watch?v=M9O5AjEFzKw
+
+Full credit goes to the original creator for the concepts, design ideas, and learning material.  
+This repository is created **for educational purposes only** and to practice React, Zustand, and frontend development skills.
 
 
 
